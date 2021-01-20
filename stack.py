@@ -13,3 +13,15 @@ class Stack():
     def pop(self):
         self.items.pop()
 
+    def get_stack(self):
+        return self.items
+
+
+myStack = Stack()
+myStack.push("A")
+myStack.push("B")
+print(myStack.get_stack())
+myStack.push("C")
+print(myStack.get_stack())
+myStack.pop()
+print(myStack.get_stack())
