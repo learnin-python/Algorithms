@@ -55,7 +55,8 @@ print(is_parent_balanced("[][]"))
 
 """
 
-# Reverse String
+"""
+Reverse String
 
 from stack import Stack
 
@@ -74,3 +75,26 @@ stack = Stack()
 
 input_str = "!ayneK ot emocleW"
 print(reverse_string(stack, input_str))
+
+"""
+
+from stack import Stack
+def convert_int_to_bin(dec_num):
+
+    if dec_num == 0:
+        return 0
+    s = Stack()
+
+
+    while dec_num > 0:
+        remainder = dec_num % 2
+        s.push(remainder)
+        dec_num = dec_num // 2
+
+    bin_num = ""
+    while not s.is_empty():
+        bin_num += str(s.pop())
+
+    return bin_num
+
+print(convert_int_to_bin(242))

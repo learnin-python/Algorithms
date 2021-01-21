@@ -1,4 +1,3 @@
-
 """Determine if Brackets are balanced
 
 
@@ -32,6 +31,7 @@ myStack.push("D")
 print(myStack.peek())
 print(myStack.get_stack())
 """
+
 
 class Stack():
     def __init__(self):
