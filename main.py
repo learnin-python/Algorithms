@@ -1,3 +1,4 @@
+
 """
  Determine if Brackets are Balanced
 
@@ -57,6 +58,8 @@ print(is_parent_balanced("[][]"))
 # Reverse String
 
 from stack import Stack
+
+
 def reverse_string(stack, input_str):
     for i in range(len(input_str)):
         stack.push((input_str[i]))
@@ -65,6 +68,7 @@ def reverse_string(stack, input_str):
         rev_str += stack.pop()
 
     return rev_str
+
 
 stack = Stack()
 
