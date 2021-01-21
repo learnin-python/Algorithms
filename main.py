@@ -98,3 +98,8 @@ def convert_int_to_bin(dec_num):
     return bin_num
 
 print(convert_int_to_bin(242))
+print(convert_int_to_bin(2))
+print(convert_int_to_bin(32))
+print(convert_int_to_bin(10))
+
+print(int(convert_int_to_bin(56),2)==56)
