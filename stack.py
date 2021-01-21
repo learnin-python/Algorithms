@@ -1,7 +1,8 @@
+
 """
 Stack Data Structures
-"""
 
+"""
 
 class Stack():
     def __init__(self):
@@ -31,3 +32,5 @@ myStack.push("C")
 myStack.push("D")
 print(myStack.peek())
 print(myStack.get_stack())
+
+
