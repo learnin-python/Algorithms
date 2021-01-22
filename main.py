@@ -54,7 +54,6 @@ print(is_parent_balanced("[][]"))
 
 
 """
-
 """
 Reverse String
 
@@ -77,7 +76,9 @@ input_str = "!ayneK ot emocleW"
 print(reverse_string(stack, input_str))
 
 """
+"""
 
+Conversion of decimal numbers to binary using stack
 from stack import Stack
 def convert_int_to_bin(dec_num):
 
@@ -103,3 +104,62 @@ print(convert_int_to_bin(32))
 print(convert_int_to_bin(10))
 
 print(int(convert_int_to_bin(56),2)==56)
+
+"""
+
+# Singly linked lists and operations
+
+# initializing node
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+# initializing Linked List
+class LinkedList:
+    def __init__(self):
+        self.head = None
+# printing  List
+    def print_list(self):
+        cur_node = self.head
+        while cur_node:
+            print(cur_node.data)
+            cur_node = cur_node.next
+
+# Appending(Inserting) a node at the end of the list
+    def append(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next =new_node
+
+# Prepending(Inserting a node at the begining of the list)
+    def prepend(self, data):
+        new_node = Node(data)
+
+        new_node.next = self.head
+        self.head =new_node
+# Inserting after a node
+    def insert_after_node(self, prev_node, data):
+        if not prev_node:
+            print("Previous node doesn't exist.")
+            return
+        new_node = Node(data)
+
+        new_node.next = prev_node.next
+        prev_node.next = new_node
+
+llist = LinkedList()
+llist.append("A")
+llist.append("B")
+llist.append("C")
+
+llist.insert_after_node(llist.head.next, "D")
+
+
+llist.print_list()
