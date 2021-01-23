@@ -161,6 +161,10 @@ class LinkedList:
             self.head =cur_node.next
             cur_node = None
             return
+        prev = None
+        while cur_node and cur_node.data != key:
+
+
 
 
 llist = LinkedList()
