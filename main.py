@@ -159,6 +159,8 @@ class LinkedList:
         cur_node = self.head
         if cur_node and cur_node.data == key:
             self.head =cur_node.next
+            cur_node = None
+            return
 
 
 llist = LinkedList()
