@@ -154,6 +154,11 @@ class LinkedList:
         new_node.next = prev_node.next
         prev_node.next = new_node
 
+    def delete_node(self, key):
+
+        cur_node = self.head
+
+
 llist = LinkedList()
 llist.append("A")
 llist.append("B")
@@ -163,3 +168,4 @@ llist.insert_after_node(llist.head.next, "D")
 
 
 llist.print_list()
+
