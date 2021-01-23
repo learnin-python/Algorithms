@@ -157,6 +157,8 @@ class LinkedList:
     def delete_node(self, key):
 
         cur_node = self.head
+        if cur_node and cur_node.data == key:
+            self.head =cur_node.next
 
 
 llist = LinkedList()
