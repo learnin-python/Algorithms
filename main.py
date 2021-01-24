@@ -180,6 +180,6 @@ class LinkedList:
 
 # llist.insert_after_node(llist.head.next, "D")
 
-
-llist.print_list()
+#
+# llist.print_list()
 
