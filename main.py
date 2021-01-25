@@ -173,10 +173,11 @@ class LinkedList:
 
 
 
-# llist = LinkedList()
-# llist.append("A")
-# # llist.append("B")
-# llist.append("C")
+llist = LinkedList()
+llist.append("A")
+llist.append("B")
+llist.append("C")
+llist.append("D")
 
 # llist.insert_after_node(llist.head.next, "D")
 
