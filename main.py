@@ -183,7 +183,7 @@ llist.delete_node("B")
 llist.delete_node("E")
 
 llist.print_list()
-# llist.insert_after_node(llist.head.next, "D")
+llist.insert_after_node(llist.head.next, "D")
 
 #
 # llist.print_list()
