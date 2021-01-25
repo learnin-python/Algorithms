@@ -179,6 +179,10 @@ llist.append("B")
 llist.append("C")
 llist.append("D")
 
+llist.delete_node("B")
+llist.delete_node("E")
+
+llist.print_list()
 # llist.insert_after_node(llist.head.next, "D")
 
 #
