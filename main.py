@@ -153,7 +153,7 @@ class LinkedList:
 
         new_node.next = prev_node.next
         prev_node.next = new_node
-
+# Deleting Node by value
     def delete_node(self, key):
 
         cur_node = self.head
@@ -169,6 +169,11 @@ class LinkedList:
             return
         prev.next = cur_node.next
         cur_node = None
+# Deleting Node by position
+    def delete_node_at_pos(self, pos):
+        if  self.head:
+            cur_node = self.head
+
 
 
 
