@@ -174,6 +174,10 @@ class LinkedList:
         if  self.head:
             cur_node = self.head
 
+        if pos == 0:
+            self.head = cur_node
+            cur_node = None
+            return
 
 
 
