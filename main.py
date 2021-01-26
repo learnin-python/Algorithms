@@ -186,6 +186,8 @@ class LinkedList:
             cur_node = cur_node.next
             count += 1
 
+        if cur_node in None:
+            return
 
 
 
