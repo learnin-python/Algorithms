@@ -189,6 +189,10 @@ class LinkedList:
         if cur_node in None:
             return
 
+        prev.next = cur_node.next
+        cur_node = None
+
+
 
 
 llist = LinkedList()
