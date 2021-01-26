@@ -117,10 +117,13 @@ class Node:
         self.next = None
 
 # initializing Linked List
+
 class LinkedList:
     def __init__(self):
         self.head = None
+
 # printing  List
+
     def print_list(self):
         cur_node = self.head
         while cur_node:
@@ -128,6 +131,7 @@ class LinkedList:
             cur_node = cur_node.next
 
 # Appending(Inserting) a node at the end of the list
+
     def append(self, data):
         new_node = Node(data)
         if self.head is None:
@@ -139,12 +143,15 @@ class LinkedList:
         last_node.next =new_node
 
 # Prepending(Inserting a node at the begining of the list)
+
     def prepend(self, data):
         new_node = Node(data)
 
         new_node.next = self.head
         self.head =new_node
+
 # Inserting after a node
+
     def insert_after_node(self, prev_node, data):
         if not prev_node:
             print("Previous node doesn't exist.")
@@ -153,7 +160,9 @@ class LinkedList:
 
         new_node.next = prev_node.next
         prev_node.next = new_node
+
 # Deleting Node by value
+
     def delete_node(self, key):
 
         cur_node = self.head
@@ -169,7 +178,10 @@ class LinkedList:
             return
         prev.next = cur_node.next
         cur_node = None
+
+
 # Deleting Node by position
+
     def delete_node_at_pos(self, pos):
         if  self.head:
             cur_node = self.head
@@ -207,6 +219,6 @@ llist.delete_node("E")
 llist.print_list()
 llist.insert_after_node(llist.head.next, "D")
 
-#
+
 # llist.print_list()
 
