@@ -149,7 +149,7 @@ class LinkedList:
 
         new_node.next = self.head
         self.head =new_node
-
+#### To investigate further
 # Inserting after a node
 
     def insert_after_node(self, prev_node, data):
@@ -203,7 +203,10 @@ class LinkedList:
 
         prev.next = cur_node.next
         cur_node = None
+# Calculating length of a linked list
 
+    def len_iterative(self):
+        count
 
 
 
