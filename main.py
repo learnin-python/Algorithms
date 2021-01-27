@@ -211,6 +211,7 @@ class LinkedList:
         while cur_node:
             count += 1
             cur_node = cur_node.next
+        return count
 
 
 
@@ -225,7 +226,6 @@ llist.delete_node("E")
 
 llist.print_list()
 llist.insert_after_node(llist.head.next, "D")
-
-
+print(llist.len_iterative())
 # llist.print_list()
 
