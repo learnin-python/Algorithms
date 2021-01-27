@@ -206,7 +206,11 @@ class LinkedList:
 # Calculating length of a linked list
 
     def len_iterative(self):
-        count
+        count = 0
+        cur_node = self.head
+        while cur_node:
+            count += 1
+            cur_node = cur_node.next
 
 
 
