@@ -217,7 +217,10 @@ class LinkedList:
             return 0
         return 1 + self.len_recursive(node.next)
 
+
+
 llist = LinkedList()
+print("The length of an empty linked list:")
 llist.append("A")
 llist.append("B")
 llist.append("C")
@@ -231,3 +234,5 @@ llist.insert_after_node(llist.head.next, "D")
 # print(llist.len_iterative())
 # llist.print_list()
 print(llist.len_recursive(llist.head))
+
+
