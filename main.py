@@ -217,12 +217,21 @@ class LinkedList:
             return 0
         return 1 + self.len_recursive(node.next)
 
+
+
 llist = LinkedList()
+print("The length of an empty linked list:")
+print(llist.len_recursive(llist.head))
 llist.append("A")
 llist.append("B")
 llist.append("C")
 llist.append("D")
 
+
+print("The length of an empty linked list calculated recursively after inserting 4 element is:")
+print(llist.len_recursive(llist.head))
+print("The length of the linked list calculated iteratively after inserting 4 elements is:")
+print(llist.len_recursive())
 llist.delete_node("B")
 llist.delete_node("E")
 
@@ -231,3 +240,5 @@ llist.insert_after_node(llist.head.next, "D")
 # print(llist.len_iterative())
 # llist.print_list()
 print(llist.len_recursive(llist.head))
+
+
