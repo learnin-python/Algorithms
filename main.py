@@ -221,6 +221,7 @@ class LinkedList:
 
 llist = LinkedList()
 print("The length of an empty linked list:")
+print(llist.len_recursive(llist.head))
 llist.append("A")
 llist.append("B")
 llist.append("C")
