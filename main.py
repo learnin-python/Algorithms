@@ -227,6 +227,9 @@ llist.append("B")
 llist.append("C")
 llist.append("D")
 
+
+print("The length of an empty linked list calculated recursively after inserting 4 element is:")
+
 llist.delete_node("B")
 llist.delete_node("E")
 
