@@ -217,6 +217,7 @@ class LinkedList:
             return 0
         return 1 + self.len_recursive(node.next)
 # Swapping nodes
+    def swap_nodes(self, keys_1, keys2):
 
 
 
