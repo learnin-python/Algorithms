@@ -233,6 +233,9 @@ class LinkedList:
             prev_2 = curr_2
             curr_2 = curr_2.next
 
+        if not  curr_1 or not   curr_2:
+            return
+
 
 
 llist = LinkedList()
