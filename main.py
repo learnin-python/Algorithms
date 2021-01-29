@@ -219,6 +219,14 @@ class LinkedList:
 # Swapping nodes
     def swap_nodes(self, keys_1, keys2):
 
+        if keys_1 == keys2:
+            return
+        prev_1 = None
+        curr_1 = self.head
+        while curr_1 and curr_1.data != keys_1:
+            prev_1 = curr_1
+            curr_1 = curr_1.next
+
 
 
 llist = LinkedList()
