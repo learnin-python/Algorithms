@@ -242,6 +242,8 @@ class LinkedList:
             self.head == curr_2
         if prev_2:
             prev_2.next = curr_2
+        else:
+            self.head = curr_1
 
 
 
