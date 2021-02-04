@@ -271,4 +271,8 @@ llist.insert_after_node(llist.head.next, "D")
 # llist.print_list()
 print(llist.len_recursive(llist.head))
 
+print(('Original List'))
+llist.print_list()
 
+llist.swap_nodes("B", "C")
+print("Swapping nodes B and C that are not head nodes")
