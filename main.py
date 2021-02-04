@@ -286,3 +286,5 @@ llist.swap_nodes("D", "B")
 print("Swapping nodes D and B where key_2 is head node")
 llist.print_list()
 
+llist.swap_nodes("C", "C")
+print("Swapping nodes C and C where both keys are same")
