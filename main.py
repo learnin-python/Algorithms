@@ -278,9 +278,6 @@ llist.swap_nodes("B", "C")
 print("Swapping nodes B and C that are not head nodes")
 llist.print_list()
 
-llist.swap_nodes("A", "B")
-print("Swapping nodes A and B where key_1 is head node")
-
 
 
 
