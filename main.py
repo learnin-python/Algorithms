@@ -280,7 +280,7 @@ llist.print_list()
 
 llist.swap_nodes("A", "B")
 print("Swapping nodes A and B where key_1 is head node")
-llist.print_list()
+
 
 
 
