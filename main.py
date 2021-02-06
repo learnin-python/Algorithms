@@ -249,7 +249,8 @@ class LinkedList:
 
 def print_helper (self, node, name):
     if node is None:
-        print()
+        print(name + ":None")
+
 
 
 
