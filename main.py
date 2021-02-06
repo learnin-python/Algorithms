@@ -255,6 +255,9 @@ def print_helper (self, node, name):
 
 def reversse_iterative(self):
 
+    prev = None
+    cur = self.head
+
 
 
 
