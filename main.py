@@ -253,6 +253,8 @@ def print_helper (self, node, name):
     else:
         print(name + ":" + node.data)
 
+def reversse_iterative(self):
+
 
 
 
