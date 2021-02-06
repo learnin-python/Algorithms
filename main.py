@@ -247,6 +247,18 @@ class LinkedList:
 
     curr_1.next, curr_2.next = curr_2.next, curr_1.next
 
+def print_helper (self, node, name):
+    if node is None:
+        print(name + ":None")
+    else:
+        print(name + ":" + node.data)
+
+def reversse_iterative(self):
+
+    prev = None
+    cur = self.head
+
+
 
 
 llist = LinkedList()
