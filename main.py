@@ -251,7 +251,7 @@ def print_helper (self, node, name):
     if node is None:
         print(name + ":None")
     else:
-        print()
+        print(name + ":" + node.data)
 
 
 
