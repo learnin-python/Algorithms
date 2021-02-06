@@ -247,6 +247,9 @@ class LinkedList:
 
     curr_1.next, curr_2.next = curr_2.next, curr_1.next
 
+def print_helper (self, node, name):
+
+
 
 
 llist = LinkedList()
