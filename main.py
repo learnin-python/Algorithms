@@ -259,7 +259,7 @@ def reversse_iterative(self):
     cur = self.head
     while cur:
         nxt = cur.next
-
+        cur.next = prev
 
 
 
