@@ -253,10 +253,16 @@ def print_helper (self, node, name):
     else:
         print(name + ":" + node.data)
 
-def reversse_iterative(self):
+def reverse_iterative(self):
 
     prev = None
     cur = self.head
+    while cur:
+        nxt = cur.next
+        cur.next = prev
+        prev = cur
+        cur = nxt
+    self.head = prev
 
 
 
@@ -269,6 +275,7 @@ llist.append("B")
 llist.append("C")
 llist.append("D")
 
+llist.reverse_iterative()
 
 print("The length of an empty linked list calculated recursively after inserting 4 element is:")
 print(llist.len_recursive(llist.head))
