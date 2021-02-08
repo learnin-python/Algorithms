@@ -264,7 +264,16 @@ def reverse_iterative(self):
         cur = nxt
     self.head = prev
 
+def reserve_recursive(self):
 
+    def _reverse_recursive(cur, prev):
+        if not cur:
+            return  prev
+
+        nxt = cur.next
+        cur.next = prev
+        cur = nxt
+        return _reverse_recursive(cur, prev)
 
 
 llist = LinkedList()
