@@ -270,6 +270,8 @@ def reserve_recursive(self):
         if not cur:
             return  prev
 
+        nxt = cur.next
+
 
 
 
