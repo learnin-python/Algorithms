@@ -264,6 +264,9 @@ def reverse_iterative(self):
         cur = nxt
     self.head = prev
 
+def reserve_recursive(self):
+
+
 
 
 
