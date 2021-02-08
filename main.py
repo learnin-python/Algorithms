@@ -272,6 +272,7 @@ def reserve_recursive(self):
 
         nxt = cur.next
         cur.next = prev
+        cur = nxt
 
 
 llist = LinkedList()
