@@ -203,6 +203,7 @@ class LinkedList:
 
         prev.next = cur_node.next
         cur_node = None
+
 # Calculating length of a linked list
 
     def len_iterative(self):
@@ -216,7 +217,9 @@ class LinkedList:
         if node is None:
             return 0
         return 1 + self.len_recursive(node.next)
+
 # Swapping nodes
+
     def swap_nodes(self, key_1, key_2):
 
         if keys_1 == keys2:
@@ -235,7 +238,9 @@ class LinkedList:
 
         if not  curr_1 or not   curr_2:
             return
-# inmplementing condition
+
+# implementing condition
+
         if prev_1:
             prev_1.next = curr_2
         else:
@@ -274,6 +279,7 @@ def reserve_recursive(self):
         cur.next = prev
         cur = nxt
         return _reverse_recursive(cur, prev)
+    self.head = _reverse_recursive(cur=self.head, prev=None)
 
 
 llist = LinkedList()
