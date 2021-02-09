@@ -235,7 +235,8 @@ class LinkedList:
 
         if not  curr_1 or not   curr_2:
             return
-# inmplementing condition
+
+# implementing condition
         if prev_1:
             prev_1.next = curr_2
         else:
