@@ -239,6 +239,7 @@ class LinkedList:
             return
 
 # implementing condition
+
         if prev_1:
             prev_1.next = curr_2
         else:
