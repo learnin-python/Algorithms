@@ -274,6 +274,7 @@ def reserve_recursive(self):
         cur.next = prev
         cur = nxt
         return _reverse_recursive(cur, prev)
+    self.head
 
 
 llist = LinkedList()
