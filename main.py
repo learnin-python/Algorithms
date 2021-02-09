@@ -218,6 +218,7 @@ class LinkedList:
         return 1 + self.len_recursive(node.next)
 
 # Swapping nodes
+
     def swap_nodes(self, key_1, key_2):
 
         if keys_1 == keys2:
