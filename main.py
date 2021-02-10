@@ -295,7 +295,9 @@ def merge_sorted(self, llist):
     if p.data <= q.data:
         s = p
         p = s.next
-
+    else:
+        s = q
+        q = s.next
 
 
 
