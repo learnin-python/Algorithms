@@ -298,6 +298,7 @@ def merge_sorted(self, llist):
     else:
         s = q
         q = s.next
+    new_head = s
 
 
 
