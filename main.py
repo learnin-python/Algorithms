@@ -281,6 +281,10 @@ def reserve_recursive(self):
         return _reverse_recursive(cur, prev)
     self.head = _reverse_recursive(cur=self.head, prev=None)
 
+def merge_sorted(self, llist):
+
+    p = self.head
+    q = llist.head
 
 llist = LinkedList()
 print("The length of an empty linked list:")
