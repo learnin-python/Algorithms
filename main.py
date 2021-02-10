@@ -289,6 +289,9 @@ def merge_sorted(self, llist):
 
     if not p:
         return q
+    if not q:
+        return p
+
 
 llist = LinkedList()
 print("The length of an empty linked list:")
