@@ -293,6 +293,8 @@ def merge_sorted(self, llist):
         return p
 
     if p.data <= q.data:
+        s = p
+
 
 
 
