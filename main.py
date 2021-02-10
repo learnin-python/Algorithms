@@ -291,6 +291,7 @@ def merge_sorted(self, llist):
         return q
     if not q:
         return p
+    if p.data <= q.data
 
 
 llist = LinkedList()
