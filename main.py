@@ -302,6 +302,7 @@ def merge_sorted(self, llist):
 while p and q:
     if p.data <= q.data:
         s.next = p
+        s = p
 
 
 
