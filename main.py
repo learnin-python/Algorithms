@@ -307,7 +307,8 @@ while p and q:
     else:
         s.next = p
         s = p
-        q = s
+        q = s.next
+
 
 
 
