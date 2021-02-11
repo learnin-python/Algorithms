@@ -299,6 +299,19 @@ def merge_sorted(self, llist):
         s = q
         q = s.next
     new_head = s
+while p and q:
+    if p.data <= q.data:
+        s.next = p
+        s = p
+        q = s.next
+    else:
+        s.next = p
+        s = p
+        q = s.next
+if not p:
+    s.next = q
+
+
 
 
 
