@@ -311,6 +311,7 @@ while p and q:
 if not p:
     s.next = q
 if not q:
+    s.next
 
 
 
