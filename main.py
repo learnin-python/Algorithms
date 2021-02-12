@@ -310,7 +310,7 @@ while p and q:
         q = s.next
 if not p:
     s.next = q
-    s
+if not q
 
 
 
