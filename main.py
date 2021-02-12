@@ -310,6 +310,11 @@ while p and q:
         q = s.next
 if not p:
     s.next = q
+if not q:
+    s.next = p
+
+self.head = new_head
+    return self.head
 
 
 
