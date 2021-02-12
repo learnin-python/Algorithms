@@ -313,7 +313,7 @@ if not p:
 if not q:
     s.next = p
 
-self.head =
+self.head = new_head
 
 
 
