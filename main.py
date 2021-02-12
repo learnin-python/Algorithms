@@ -309,7 +309,8 @@ while p and q:
         s = p
         q = s.next
 if not p:
-    s.next =
+    s.next = q
+    s
 
 
 
