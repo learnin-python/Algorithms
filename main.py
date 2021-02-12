@@ -314,7 +314,7 @@ if not q:
     s.next = p
 
 self.head = new_head
-return
+    return self.head
 
 
 
