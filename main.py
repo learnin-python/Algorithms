@@ -252,70 +252,70 @@ class LinkedList:
 
     curr_1.next, curr_2.next = curr_2.next, curr_1.next
 
-def print_helper (self, node, name):
-    if node is None:
-        print(name + ":None")
-    else:
-        print(name + ":" + node.data)
+    def print_helper (self, node, name):
+        if node is None:
+            print(name + ":None")
+        else:
+            print(name + ":" + node.data)
 
-def reverse_iterative(self):
+    def reverse_iterative(self):
 
-    prev = None
-    cur = self.head
-    while cur:
-        nxt = cur.next
-        cur.next = prev
-        prev = cur
-        cur = nxt
-    self.head = prev
+        prev = None
+        cur = self.head
+        while cur:
+            nxt = cur.next
+            cur.next = prev
+            prev = cur
+            cur = nxt
+        self.head = prev
 
-def reserve_recursive(self):
+    def reserve_recursive(self):
 
-    def _reverse_recursive(cur, prev):
-        if not cur:
-            return  prev
+        def _reverse_recursive(cur, prev):
+            if not cur:
+                return  prev
 
-        nxt = cur.next
-        cur.next = prev
-        cur = nxt
-        return _reverse_recursive(cur, prev)
-    self.head = _reverse_recursive(cur=self.head, prev=None)
+            nxt = cur.next
+            cur.next = prev
+            cur = nxt
+            return _reverse_recursive(cur, prev)
+        self.head = _reverse_recursive(cur=self.head, prev=None)
 
-def merge_sorted(self, llist):
+    def merge_sorted(self, llist):
 
-    p = self.head
-    q = llist.head
-    s = None
+        p = self.head
+        q = llist.head
+        s = None
 
+        if not p:
+            return q
+        if not q:
+            return p
+
+        if p.data <= q.data:
+            s = p
+            p = s.next
+        else:
+            s = q
+            q = s.next
+        new_head = s
+    while p and q:
+        if p.data <= q.data:
+            s.next = p
+            s = p
+            q = s.next
+        else:
+            s.next = p
+            s = p
+            q = s.next
     if not p:
-        return q
+        s.next = q
     if not q:
-        return p
-
-    if p.data <= q.data:
-        s = p
-        p = s.next
-    else:
-        s = q
-        q = s.next
-    new_head = s
-while p and q:
-    if p.data <= q.data:
         s.next = p
-        s = p
-        q = s.next
-    else:
-        s.next = p
-        s = p
-        q = s.next
-if not p:
-    s.next = q
-if not q:
-    s.next = p
-
-self.head = new_head
+    self.head = new_head
     return self.head
 
+# Removing Duplicates
 
 
 
