@@ -134,10 +134,12 @@ class LinkedList:
 
     def append(self, data):
         new_node = Node(data)
+
         if self.head is None:
             self.head = new_node
             return
         last_node = self.head
+
         while last_node.next:
             last_node = last_node.next
         last_node.next =new_node
@@ -153,6 +155,7 @@ class LinkedList:
 # Inserting after a node
 
     def insert_after_node(self, prev_node, data):
+
         if not prev_node:
             print("Previous node doesn't exist.")
             return
@@ -171,6 +174,7 @@ class LinkedList:
             cur_node = None
             return
         prev = None
+
         while cur_node and cur_node.data != key:
             prev = cur_node
             cur_node = cur_node.next
@@ -193,6 +197,7 @@ class LinkedList:
 
         prev = None
         count = 0
+
         while cur_node and count != pos:
             prev = cur_node
             cur_node = cur_node.next
@@ -232,6 +237,7 @@ class LinkedList:
 
         prev_2 = None
         curr_2 = self.head
+
         while curr_2 and curr_2.data != key_2:
             prev_2 = curr_2
             curr_2 = curr_2.next
@@ -253,6 +259,7 @@ class LinkedList:
     curr_1.next, curr_2.next = curr_2.next, curr_1.next
 
     def print_helper (self, node, name):
+
         if node is None:
             print(name + ":None")
         else:
@@ -278,7 +285,9 @@ class LinkedList:
             nxt = cur.next
             cur.next = prev
             cur = nxt
+
             return _reverse_recursive(cur, prev)
+
         self.head = _reverse_recursive(cur=self.head, prev=None)
 
     def merge_sorted(self, llist):
@@ -313,7 +322,9 @@ class LinkedList:
     if not q:
         s.next = p
     self.head = new_head
+
     return self.head
+
 
 # Removing Duplicates
 
