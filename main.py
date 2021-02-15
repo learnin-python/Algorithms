@@ -278,6 +278,7 @@ class LinkedList:
             nxt = cur.next
             cur.next = prev
             cur = nxt
+
             return _reverse_recursive(cur, prev)
 
         self.head = _reverse_recursive(cur=self.head, prev=None)
