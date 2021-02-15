@@ -30,6 +30,8 @@ myStack.push("C")
 myStack.push("D")
 print(myStack.peek())
 print(myStack.get_stack())
+
+
 """
 
 
