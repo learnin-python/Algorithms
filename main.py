@@ -171,6 +171,7 @@ class LinkedList:
             cur_node = None
             return
         prev = None
+
         while cur_node and cur_node.data != key:
             prev = cur_node
             cur_node = cur_node.next
