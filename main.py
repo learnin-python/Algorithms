@@ -252,34 +252,34 @@ class LinkedList:
 
     curr_1.next, curr_2.next = curr_2.next, curr_1.next
 
-def print_helper (self, node, name):
-    if node is None:
-        print(name + ":None")
-    else:
-        print(name + ":" + node.data)
+    def print_helper (self, node, name):
+        if node is None:
+            print(name + ":None")
+        else:
+            print(name + ":" + node.data)
 
-def reverse_iterative(self):
+    def reverse_iterative(self):
 
-    prev = None
-    cur = self.head
-    while cur:
-        nxt = cur.next
-        cur.next = prev
-        prev = cur
-        cur = nxt
-    self.head = prev
+        prev = None
+        cur = self.head
+        while cur:
+            nxt = cur.next
+            cur.next = prev
+            prev = cur
+            cur = nxt
+        self.head = prev
 
-def reserve_recursive(self):
+    def reserve_recursive(self):
 
-    def _reverse_recursive(cur, prev):
-        if not cur:
-            return  prev
+        def _reverse_recursive(cur, prev):
+            if not cur:
+                return  prev
 
-        nxt = cur.next
-        cur.next = prev
-        cur = nxt
-        return _reverse_recursive(cur, prev)
-    self.head = _reverse_recursive(cur=self.head, prev=None)
+            nxt = cur.next
+            cur.next = prev
+            cur = nxt
+            return _reverse_recursive(cur, prev)
+        self.head = _reverse_recursive(cur=self.head, prev=None)
 
 def merge_sorted(self, llist):
 
