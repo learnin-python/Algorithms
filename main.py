@@ -153,6 +153,7 @@ class LinkedList:
 # Inserting after a node
 
     def insert_after_node(self, prev_node, data):
+
         if not prev_node:
             print("Previous node doesn't exist.")
             return
