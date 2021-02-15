@@ -232,6 +232,7 @@ class LinkedList:
 
         prev_2 = None
         curr_2 = self.head
+
         while curr_2 and curr_2.data != key_2:
             prev_2 = curr_2
             curr_2 = curr_2.next
