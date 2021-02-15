@@ -315,7 +315,7 @@ if not q:
 
 self.head = new_head
     return self.head
-# Removing
+# Removing Du
 
 
 
