@@ -126,6 +126,7 @@ class LinkedList:
 
     def print_list(self):
         cur_node = self.head
+        
         while cur_node:
             print(cur_node.data)
             cur_node = cur_node.next
@@ -219,6 +220,7 @@ class LinkedList:
             cur_node = cur_node.next
         return count
     def len_recursive(self,node):
+
         if node is None:
             return 0
         return 1 + self.len_recursive(node.next)
@@ -231,7 +233,9 @@ class LinkedList:
             return
         prev_1 = None
         curr_1 = self.head
+
         while curr_1 and curr_1.data != keys_1:
+
             prev_1 = curr_1
             curr_1 = curr_1.next
 
@@ -310,13 +314,17 @@ class LinkedList:
         new_head = s
     while p and q:
         if p.data <= q.data:
+
             s.next = p
             s = p
             q = s.next
+
         else:
+
             s.next = p
             s = p
             q = s.next
+
     if not p:
         s.next = q
     if not q:
