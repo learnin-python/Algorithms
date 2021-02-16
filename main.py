@@ -280,6 +280,7 @@ class LinkedList:
     def reserve_recursive(self):
 
         def _reverse_recursive(cur, prev):
+
             if not cur:
                 return  prev
 
