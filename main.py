@@ -320,6 +320,7 @@ class LinkedList:
             s.next = p
             s = p
             q = s.next
+
     if not p:
         s.next = q
     if not q:
