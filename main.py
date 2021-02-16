@@ -220,6 +220,7 @@ class LinkedList:
             cur_node = cur_node.next
         return count
     def len_recursive(self,node):
+
         if node is None:
             return 0
         return 1 + self.len_recursive(node.next)
