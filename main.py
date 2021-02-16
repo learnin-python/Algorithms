@@ -315,6 +315,7 @@ class LinkedList:
             s.next = p
             s = p
             q = s.next
+
         else:
             s.next = p
             s = p
