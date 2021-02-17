@@ -83,6 +83,7 @@ print(reverse_string(stack, input_str))
 
 Conversion of decimal numbers to binary using stack
 from stack import Stack
+
 def convert_int_to_bin(dec_num):
 
     if dec_num == 0:
