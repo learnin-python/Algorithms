@@ -101,6 +101,7 @@ def convert_int_to_bin(dec_num):
     bin_num = ""
     
     while not s.is_empty():
+    
         bin_num += str(s.pop())
 
     return bin_num
