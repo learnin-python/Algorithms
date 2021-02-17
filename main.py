@@ -66,6 +66,7 @@ def reverse_string(stack, input_str):
         stack.push((input_str[i]))
         
     rev_str = ""
+    
     while not stack.is_empty():
         rev_str += stack.pop()
 
