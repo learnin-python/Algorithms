@@ -92,6 +92,7 @@ def convert_int_to_bin(dec_num):
 
 
     while dec_num > 0:
+    
         remainder = dec_num % 2
         s.push(remainder)
         dec_num = dec_num // 2
