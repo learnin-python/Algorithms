@@ -301,6 +301,7 @@ class LinkedList:
         s = None
 
         if not p:
+
             return q
         if not q:
             return p
