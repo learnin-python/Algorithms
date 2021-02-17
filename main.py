@@ -61,9 +61,12 @@ from stack import Stack
 
 
 def reverse_string(stack, input_str):
+
     for i in range(len(input_str)):
         stack.push((input_str[i]))
+        
     rev_str = ""
+    
     while not stack.is_empty():
         rev_str += stack.pop()
 
@@ -80,6 +83,7 @@ print(reverse_string(stack, input_str))
 
 Conversion of decimal numbers to binary using stack
 from stack import Stack
+
 def convert_int_to_bin(dec_num):
 
     if dec_num == 0:
@@ -88,12 +92,16 @@ def convert_int_to_bin(dec_num):
 
 
     while dec_num > 0:
+    
         remainder = dec_num % 2
         s.push(remainder)
         dec_num = dec_num // 2
+        
 
     bin_num = ""
+    
     while not s.is_empty():
+    
         bin_num += str(s.pop())
 
     return bin_num
@@ -104,6 +112,7 @@ print(convert_int_to_bin(32))
 print(convert_int_to_bin(10))
 
 print(int(convert_int_to_bin(56),2)==56)
+
 
 """
 
@@ -301,6 +310,7 @@ class LinkedList:
         s = None
 
         if not p:
+
             return q
         if not q:
             return p
