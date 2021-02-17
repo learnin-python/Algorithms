@@ -96,6 +96,7 @@ def convert_int_to_bin(dec_num):
         remainder = dec_num % 2
         s.push(remainder)
         dec_num = dec_num // 2
+        
 
     bin_num = ""
     while not s.is_empty():
