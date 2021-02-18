@@ -161,7 +161,7 @@ class LinkedList:
 
         new_node.next = self.head
         self.head =new_node
-#### To investigate fur
+#### To investigate fu
 # Inserting after a node
 
     def insert_after_node(self, prev_node, data):
