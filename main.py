@@ -258,7 +258,7 @@ class LinkedList:
         if not  curr_1 or not   curr_2:
             return
 
-# implementing condition
+# Implementing condition
 
         if prev_1:
             prev_1.next = curr_2
@@ -339,9 +339,11 @@ class LinkedList:
         s.next = q
     if not q:
         s.next = p
-    self.head = new_head
+    return new_head
 
-    return self.head
+
+
+
 
 # Removing Duplicates
 
