@@ -339,7 +339,7 @@ class LinkedList:
         s.next = q
     if not q:
         s.next = p
-    self.head = new_h
+    self.head = new_
 
 
 
