@@ -339,9 +339,10 @@ class LinkedList:
         s.next = q
     if not q:
         s.next = p
-    self.head = new_head
+    self.head = new_hea
 
-    return self.head
+
+
 
 # Removing Duplicates
 
