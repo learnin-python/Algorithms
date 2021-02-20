@@ -131,7 +131,7 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-# printing  List
+# Printing  List
 
     def print_list(self):
         cur_node = self.head
@@ -340,6 +340,10 @@ class LinkedList:
     if not q:
         s.next = p
     return new_head
+
+    def remove_duplicates(self):
+        cur = self.head
+        prev = None
 
 
 
