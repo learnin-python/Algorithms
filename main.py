@@ -344,6 +344,12 @@ class LinkedList:
     def remove_duplicates(self):
         cur = self.head
         prev = None
+        dup_values = dict()
+
+        while cur:
+            if cur.data in dup_values:
+                # Remove node:
+
 
 
 
