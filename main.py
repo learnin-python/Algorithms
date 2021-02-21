@@ -341,7 +341,7 @@ class LinkedList:
         s.next = p
     return new_head
 
-    def remove_duplicates
+    def remove_duplicates(self):
 
 
 
