@@ -342,7 +342,7 @@ class LinkedList:
     return new_head
 
     def remove_duplicates(self):
-        cur = self
+        cur = self.head
 
 
 
