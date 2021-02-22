@@ -344,7 +344,7 @@ class LinkedList:
     def remove_duplicates(self):
         cur = self.head
         prev = None
-        dup
+        dup_
 
 
 
