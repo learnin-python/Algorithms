@@ -349,6 +349,8 @@ class LinkedList:
         while cur:
             if cur.data in dup_values:
                 # Remove node:
+                prev.next = cur.next
+                cur = None
 
 
 
