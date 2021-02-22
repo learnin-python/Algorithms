@@ -347,7 +347,7 @@ class LinkedList:
         dup_values = dict()
 
         while cur:
-            if cur.data in
+            if cur.data in dup_values
 
 
 
