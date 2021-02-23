@@ -350,6 +350,7 @@ class LinkedList:
             if cur.data in dup_values:
                 # Remove node:
                 prev.next = cur.next
+                cur
 
 
 
