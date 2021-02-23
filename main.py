@@ -349,7 +349,7 @@ class LinkedList:
         while cur:
             if cur.data in dup_values:
                 # Remove node:
-                prev.next = cur.ne
+                prev.next = cur.next
 
 
 
