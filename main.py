@@ -351,7 +351,7 @@ class LinkedList:
                 # Remove node:
                 prev.next = cur.next
                 cur = None
-
+            el
 
 
 
