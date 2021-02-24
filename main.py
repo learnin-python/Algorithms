@@ -352,7 +352,7 @@ class LinkedList:
                 prev.next = cur.next
                 cur = None
             else:
-                # Have not encountered ele
+                # Have not encountered element
 
 
 
