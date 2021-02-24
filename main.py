@@ -352,6 +352,7 @@ class LinkedList:
                 prev.next = cur.next
                 cur = None
             else:
+                #
 
 
 
