@@ -360,6 +360,7 @@ class LinkedList:
 
 
 
+
 # Removing Duplicates
 
 
@@ -380,7 +381,7 @@ print(llist.len_recursive(llist.head))
 print("The length of the linked list calculated iteratively after inserting 4 elements is:")
 print(llist.len_recursive())
 llist.delete_node("B")
-llist.delete_node("E")
+
 
 llist.print_list()
 llist.insert_after_node(llist.head.next, "D")
