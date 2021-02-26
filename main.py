@@ -353,7 +353,7 @@ class LinkedList:
                 cur = None
             else:
                 # Have not encountered element before.
-                dup_values[cur.data]
+                dup_values[cur.data]=
 
 
 
