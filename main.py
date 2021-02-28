@@ -355,7 +355,7 @@ class LinkedList:
                 # Have not encountered element before.
                 dup_values[cur.data] = 1
                 prev = cur
-                cur = []
+                cur =
 
 
 
