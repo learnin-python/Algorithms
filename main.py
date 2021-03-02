@@ -356,7 +356,7 @@ class LinkedList:
                 dup_values[cur.data] = 1
                 prev = cur
 
-                cur = prev.ne
+                cur = prev.nex
 
 
 
