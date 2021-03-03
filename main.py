@@ -357,6 +357,8 @@ class LinkedList:
                 prev = cur
             cur = prev.next
 
+    def
+
 
 
 
