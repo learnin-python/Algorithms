@@ -357,7 +357,7 @@ class LinkedList:
                 prev = cur
             cur = prev.next
 
-    def nth_from_last(self):
+    def nth_from_last(self, n):
 
 
 
