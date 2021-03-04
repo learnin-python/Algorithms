@@ -358,7 +358,7 @@ class LinkedList:
             cur = prev.next
 
     def print_nth_from_last(self, n):
-        total_len =
+        total_len = self.
 
 
 
