@@ -360,6 +360,8 @@ class LinkedList:
     def print_nth_from_last(self, n):
         total_len = self.len_recursive()
 
+        cur = self.head
+        while cur:
 
 
 
