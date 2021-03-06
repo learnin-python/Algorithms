@@ -361,7 +361,7 @@ class LinkedList:
         total_len = self.len_recursive()
 
         cur = self.head
-        while c
+        while cu
 
 
 
