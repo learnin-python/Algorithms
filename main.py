@@ -362,7 +362,7 @@ class LinkedList:
 
         cur = self.head
         while cur:
-            if tot
+            if tota
 
 
 
