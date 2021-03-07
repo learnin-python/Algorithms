@@ -363,7 +363,7 @@ class LinkedList:
         cur = self.head
         while cur:
             if total_len  == n:
-                print()
+                print(cur.data)
 
 
 
