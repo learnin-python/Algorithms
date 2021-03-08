@@ -364,6 +364,7 @@ class LinkedList:
         while cur:
             if total_len  == n:
                 print(cur.data)
+                re
 
 
 
