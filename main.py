@@ -367,7 +367,7 @@ class LinkedList:
                 return cur.data
             total_len -= 1
             cur = cur.next
-            if cur
+            if cur is
 
 
 
