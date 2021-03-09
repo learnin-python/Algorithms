@@ -366,6 +366,7 @@ class LinkedList:
                 print(cur.data)
                 return cur.data
             total_len -= 1
+            cur
 
 
 
