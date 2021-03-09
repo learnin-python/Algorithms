@@ -368,6 +368,7 @@ class LinkedList:
             total_len -= 1
             cur = cur.next
             if cur is None:
+                re
 
 
 
