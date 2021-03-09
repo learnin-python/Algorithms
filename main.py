@@ -365,7 +365,8 @@ class LinkedList:
             if total_len  == n:
                 print(cur.data)
                 return cur.data
-            total_len ==
+            total_len -= 1
+
 
 
 
