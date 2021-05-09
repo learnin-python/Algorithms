@@ -310,7 +310,6 @@ class LinkedList:
         s = None
 
         if not p:
-
             return q
         if not q:
             return p
@@ -339,7 +338,8 @@ class LinkedList:
         s.next = q
     if not q:
         s.next = p
-    return new_head
+
+    # return new_head
 
     def remove_duplicates(self):
         cur = self.head
@@ -369,11 +369,6 @@ class LinkedList:
             cur = cur.next
             if cur is None:
                 return
-
-
-
-
-
 
 
 
