@@ -23,7 +23,6 @@ class Stack():
             return self.items[-1]
 
 
-
 myStack = Stack()
 myStack.push("A")
 myStack.push("B")
