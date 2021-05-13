@@ -346,6 +346,7 @@ class LinkedList:
         prev = None
         dup_values = dict()
 
+
         while cur:
             if cur.data in dup_values:
                 # Remove node:
