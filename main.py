@@ -346,6 +346,7 @@ class LinkedList:
         prev = None
         dup_values = dict()
 
+
         while cur:
             if cur.data in dup_values:
                 # Remove node:
@@ -371,11 +372,7 @@ class LinkedList:
                 return
 
 
-
 # Removing Duplicates
-
-
-
 
 llist = LinkedList()
 print("The length of an empty linked list:")
@@ -418,8 +415,3 @@ llist.print_list()
 llist.swap_nodes("C", "C")
 print("Swapping nodes C and C where both keys are same")
 llist.print_list()
-
-
-
-
-
