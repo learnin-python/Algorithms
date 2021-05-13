@@ -417,4 +417,3 @@ print("Swapping nodes C and C where both keys are same")
 llist.print_list()
 
 
-
