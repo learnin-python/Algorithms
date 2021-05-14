@@ -400,7 +400,7 @@ print(llist.len_recursive(llist.head))
 print(('Original List'))
 
 llist.print_list()
-llist.p
+llist
 llist.swap_nodes("B", "C")
 print("Swapping nodes B and C that are not head nodes")
 llist.print_list()
