@@ -383,7 +383,7 @@ llist.append("C")
 llist.append("D")
 
 llist.reverse_iterative()
-llist.reverse_it
+llist.reverse
 print("The length of an empty linked list calculated recursively after inserting 4 element is:")
 print(llist.len_recursive(llist.head))
 print("The length of the linked list calculated iteratively after inserting 4 elements is:")
