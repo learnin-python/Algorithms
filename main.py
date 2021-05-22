@@ -382,6 +382,7 @@ llist.append("B")
 llist.append("C")
 llist.append("D")
 
+
 llist.reverse_iterative()
 
 print("The length of an empty linked list calculated recursively after inserting 4 element is:")
@@ -398,8 +399,8 @@ llist.insert_after_node(llist.head.next, "D")
 print(llist.len_recursive(llist.head))
 
 print(('Original List'))
-llist.print_list()
 
+llist.print_list()
 llist.swap_nodes("B", "C")
 print("Swapping nodes B and C that are not head nodes")
 llist.print_list()
