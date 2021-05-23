@@ -397,7 +397,7 @@ llist.insert_after_node(llist.head.next, "D")
 # print(llist.len_iterative())
 
 # llist.print_list()
-# llist.print_lis
+# llist.print_li
 print(llist.len_recursive(llist.head))
 
 print(('Original List'))
